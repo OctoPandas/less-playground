@@ -1,0 +1,20 @@
+// [CSS Selectors Reference](https://www.w3schools.com/cssref/css_selectors.asp)
+@red: #ff4757;
+@black: #2f3542;
+
+.item {
+  width: 80px;
+  height: 80px;
+  background: @red;
+  border: 2px solid @black;
+}
+
+.wrapper {
+  display: flex;
+  border: 2px dotted @black;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+}
